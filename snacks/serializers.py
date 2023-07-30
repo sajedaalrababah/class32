@@ -5,4 +5,4 @@ from .models import Snack
 class  SnackSerializer(serializers.ModelSerializer):
     class Meta:
         model = Snack
-        fields = ('id', 'name','description')
+        fields = ( 'name','purchaser','description')
